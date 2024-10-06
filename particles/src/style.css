@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+   background: linear-gradient(0deg, rgb(198, 223, 243), rgb(116,152,169) 60%,rgb(62,106,125))
+}
+.draw {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  /* font-style: normal; */
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  mix-blend-mode: difference;
+  opacity: 0.7;
+}
